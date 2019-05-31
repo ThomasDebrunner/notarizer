@@ -11,8 +11,11 @@ Notarize invokes the standard apple tools in the background.
 * Staple the receipt to the dmg as soon as notarization is done
 * Fail (non-zero) if any of the steps above fail
 
+## Usage
 
-## Arguments
+`python3 notarize.py --package <> --username <> --password <> --primary-bundle-id <>`
+
+### Arguments
 
 Argument | Description
 ---------|--------------
